@@ -18,6 +18,7 @@ resource "aws_iam_server_certificate" "instance" {
 	}
 
 
-	provisioner "local-exec" {                                                                                                                          	command = "sleep 10"                            
-    }  
+	provisioner "local-exec" { 
+	  command = "sleep 10"                            
+    	}  
 }
